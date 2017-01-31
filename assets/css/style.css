@@ -1,10 +1,93 @@
-h1
+body
 {
-	color: blue;
+	background-color: lightblue;
+
 }
 
-.myName
+p
 {
-	color: blue;
-	
+}
+.myName
+
+{
+	background-color: #4aaaa5;
+	width: 23%;
+	font-size: 200%;
+	padding: 2%;
+    float: left;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+.otherLink
+{
+	background-color: #ffffff;
+	width: 3%;
+	font-size: 125%;
+	padding: 2%;
+	float: right;
+	margin-top: 2%
+}
+
+.contactLink
+{
+	margin-right: 13%;
+}
+
+.aboutMe
+{
+	background-color: #ffffff;
+	float: left;
+	width: 58%;
+	position: relative;
+	left: -31%;
+	border: 1px solid;
+	border-color: black;
+	margin-top: 4%;
+	padding: 1%;
+
+}
+
+.pageTitle
+{
+	clear: both;	
+	color: #4aaaa5;
+	font-size: 180%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	margin-left: 5%;			
+}
+.profilePic
+{
+	width: 30%;
+	float: left;
+	margin-right: 3%;
+}
+
+.firstParagraph
+{
+	width: 98%;
+    margin: -1%;
+    padding: 1%;
+}
+
+.secondParagraph
+{
+    width: 98%;
+    margin: -1%;
+    padding: 1%;
+}
+.conectWith
+{
+	float: right;
+    width: 19%;
+    height: 10%;
+    padding: 1%;
+    font-size: 180%;
+}
+
+.socialIcon{
+	width: 15%;
+	padding: 4%;
 }
