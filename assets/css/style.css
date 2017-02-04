@@ -46,6 +46,10 @@ a
 	color: inherit;
  	text-decoration: inherit;
 }
+p
+{
+	line-height: 2;
+}
 .wrapper
 {
 	width: 960px;
@@ -132,7 +136,7 @@ a
     padding: 3%;
     font-size: 180%;
     position: absolute;
-    top: 22%;
+    top: 14%;
     right: 22.5%;
     background-color: #fff;
     text-align: center;
