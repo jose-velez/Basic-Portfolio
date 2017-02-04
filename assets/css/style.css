@@ -1,8 +1,14 @@
+html
+{
+	position: relative;
+	min-height: 100%;
+}
 body
 {
 	color: #777777;
 	border: 2px solid #dddddd;
 	background-image: url('../images/cork-wallet.png');	
+	
 }
 
 p
@@ -18,12 +24,29 @@ footer
 	padding: 3%;
 	position: absolute;
 	bottom: 0;
-	width: 100%
+	width: 100%;
+	color: #ffffff;
 }
 header
 {
 	background-color: #ffffff;
+	border-bottom: : 2px solid #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
+input
+{
+	width: 100%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	font-size: 13px;
+}
+a
+{
+	color: inherit;
+ 	text-decoration: inherit;
+}
+
 .myName
 
 {
@@ -35,6 +58,7 @@ header
     float: left;
     margin-left: 8%;
     margin-top: 2%;
+
 }
 
 .otherLink
@@ -74,7 +98,8 @@ header
 	padding-top: 2%;
 	padding-bottom: 3%;
 	padding-left: 3%;
-	margin-left: 5%;			
+	margin-left: 5%;	
+	font-family: 'Georgia', Times, Times New Roman, serif;		
 }
 .profilePic
 {
@@ -108,10 +133,102 @@ header
     right: 5%;
     background-color: #fff;
     text-align: center;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .socialIcon{
 	width: 15%;
     padding: 4%;
     float: none;
+}
+
+.portfolioImage
+{
+	width: 33%;
+    margin: 7%;
+    display: inline-block;
+}
+
+.imageContainer
+{
+	background-color: white;
+	width: 50%;
+	height:50%;
+	float: left;
+	position: relative;
+	left: -27%;
+    margin-top: 3%;
+    padding: 2%;
+}
+
+.darthVader
+{
+	
+}
+
+.bobaFett
+{
+	
+}
+
+.r2D2
+{
+
+}
+
+.starFighter
+{
+
+}
+
+.portfolioImage
+{
+
+}
+
+.stormTrooper
+{
+}
+
+.imageHolder
+{
+	position: relative;
+}
+
+.imageHolder span
+{
+	position: absolute;
+    left: 9%;
+    top: 62%;
+    background-color: blue;
+    width: 30%;
+    text-align: center;
+}
+
+.contactMe
+{
+	background-color: #ffffff;
+	float: left;
+	width: 45%;
+	position: relative;
+	left: -31%;
+	margin-top: 4%;
+	padding: 1%;
+	margin-bottom: 13%;
+	font-size: 139%;
+	line-height: 150%;
+	
+}
+
+.submitBtn
+{
+	background-color: #4aaaa5;
+	width: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 2%;
+    color: #ffffff;
+    padding-right: 3%;
+}
 }
